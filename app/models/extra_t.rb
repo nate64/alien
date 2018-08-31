@@ -1,0 +1,2 @@
+class ExtraT < ApplicationRecord
+end
