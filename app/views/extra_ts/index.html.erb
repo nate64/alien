@@ -1,0 +1,20 @@
+<h1> Extra T(index.html.erb)</h1>
+<% @extra_ts.each do |extra_t| %>
+  <h2><%= extra_t.name %></h2>
+  <%= link_to 'Show Extra_T', extra_t_path(extra_t) %>
+  <p><%= link_to 'New Extra_T', new_extra_t_path %></p>
+<% end %>
+
+
+
+
+
+
+# <h1> Notes </h1>
+# <% @notes.each do |note| %>
+#   <h2><%= note.title %></h2>
+#   <p><%= link_to 'New Note', new_note_path %></p>
+#   <%= link_to 'Edit Note', edit_note_path(note) %>
+#   <p><%= link_to 'Show Note', note_path(note) %></p>
+#   <%= link_to 'Destroy Note', note, method: :delete %>
+#   <% end %>
